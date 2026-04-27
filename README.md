@@ -32,6 +32,6 @@ Open index.html in your browser
 Enjoy the experience 🎶
 
 📞 Contact
-Email: jandyjpv@gmail.com 
+  Email: jandyjpv@gmail.com 
 
-Location: Barranquilla, Colombia
+📌Location: Barranquilla, Colombia
