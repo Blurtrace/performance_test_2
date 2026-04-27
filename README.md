@@ -20,10 +20,10 @@ Font Awesome (icons)
 Devicon
 
 /assets
-/css
-/js
-/img
-/icons
+  /css
+  /js
+  /img
+  /icons
 index.html
 
 📌 How to use
@@ -32,5 +32,6 @@ Open index.html in your browser
 Enjoy the experience 🎶
 
 📞 Contact
-Email: jandyjpv@gmail.com
+Email: jandyjpv@gmail.com 
+
 Location: Barranquilla, Colombia
