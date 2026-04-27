@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clancy's Tour</title>
+    <link rel="shortcut icon" href="./assets/icons/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__content">
+            <h1 class="logo">Twenty øne piløts</h1>
+
+            <!-- Nav for desktop / hamburger for mobile -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hint for JS (optional extra points) -->
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+        </div>
+
+        <div class="nav-mobile" id="navMobile">
+            <ul>
+            <li><a href="#events" onclick="closeMenu()">Events</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#media" onclick="closeMenu()">Media</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="start">
+            <div class="hero-content">
+                <span class="hero-eyebrow"> 02 · 03 · 04 January, 2027</span>
+                <h1>Twenty øne piløts<br /><em>Clancy's tour is about to begin.</em></h1>
+                <p class="hero-fecha">The doors will open from 4 PM. &nbsp;</p>
+                <p class="hero-subtitle">
+                    Memorable anthems, special guests, and much more
+                </p>
+                <a href="#events" class="btn-primary">The Clancy Tour</a>
+            </div>
+        </section>
+        <!-- EVENTS -->
+        <section class="events" id="events">
+            <div class="events-header">
+                <span class="section-label">Oficial Schedule</span>
+                <h2 class="section-title">Submission Dates</h2>
+                <div class="divider"></div>
+                <p class="section-desc">
+                    Here you will find all the information such as: place, date and capacity
+                </p>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Day</th>
+                        <th>Stadium</th>
+                        <th>Capacity</th>
+                        <th>Features</th>
+                        <th>Tickets</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>02/Jan/2027</td>
+                            <td>Atanasio Girardot Stadium</td>
+                            <td>45.000 Viewers</td>
+                            <td><span class="tag">Unconfirmed</span></td>
+                            <td><button class="btn-reservar">Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td>03/Jan/2027</td>
+                            <td>Roberto Meléndez Stadium</td>
+                            <td>65.000 Viewers</td>
+                            <td><span class="tag">Unconfirmed</span></td>
+                            <td><button class="btn-reservar">Buy</button></td>
+                            </tr>
+                        <tr>
+                            <td>04/Jan/2027</td>
+                            <td>Movistar Arena</td>
+                            <td>14,000 Viewers</td>
+                            <td><span class="tag">Unconfirmed</span></td>
+                            <td><button class="btn-reservar">Buy</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="#about" id="about">
+            <div class="about-grid">
+                <!-- Texto informativo -->
+                <div class="about-text">
+                    <span class="section-label"> </span>
+                    <h2 class="section-title">Guess Who's Back?<br />Twenty øne piløts!!!</h2>
+                    <div class="divider"></div>
+                    <p class="section-desc">
+                    About who is 
+                    Twenty øne piløts is an American musical duo from 
+                    Columbus, Ohio, formed in 2009 by Tyler Joseph, Nick Thomas, 
+                    and Chris Salih, later becoming a duo with Joseph and drummer 
+                    Josh Dun in 2011
+                    </p>
+                    <br>
+                    <strong><h3>Mainstream Breakthrough and Blurryface (2015–2017)</h3></strong>
+                    <ul class="values-list">
+                        <li>Blurryface: Released in May 2015, the album debuted at No. 1 on the Billboard 200.</li>
+                        <li>Grammy Success: "Stressed Out" won a Grammy Award for Best Pop Duo/Group Performance at the 59th Annual Grammy Awards.</li>
+                        <li>"Heathens": Released in 2016 for the Suicide Squad soundtrack, the song peaked at No. 2 on the Billboard Hot 100.</li>
+                    </ul>
+                    <br>
+                    <strong><h3>Trench, Scaled and Icy, and Clancy (2018–Present) </h3></strong>
+                    <ul class="values-list">
+                        <li>Trench (2018): After a year-long hiatus, they released their fifth studio album, featuring "Jumpsuit" and "Nico and the Niners".</li>
+                        <li>Scaled and Icy (2021): The sixth studio album was created during the COVID-19 pandemic and released in May 2021.</li>
+                        <li>Clancy (2024): Their seventh studio album, released on May 24, 2024, concluded the elaborate narrative lore of the Dema/Trench era.</li>
+                    </ul>
+                </div>
+            <!-- Imagen decorativa -->
+                <div class="about-img">
+                    <img src="https://www.nme.com/wp-content/uploads/2018/07/Twenty-One-Pilots-Main-Pub-2018-Brad-Heaton-Lo.jpg" alt="Band photo">
+                </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section class="albums" id="media">
+        <div class="albums-header">
+            <h2 class="section-title" >What will Clandy do?</h2>
+            <div class="divider center"></div>
+            <p class="section-desc" style="margin: 0 auto; text-align:center;">
+                Twenty One Pilots is back! 🔴🟡 The Clancy World Tour is a celebration of a legendary era.
+                Get ready for a night of controlled chaos, drum acrobatics, and a setlist that spans from Blurryface anthems to the Clancy revolution.
+                The city of Dema awaits... and this time, we're in control. Get your tickets and join the resistance.
+            </p>
+            <br><br>
+            <div class="divider center"></div>
+            <span class="section-label" style="text-align: center;">Chronology of Clancy's albums</span>
+        </div>
+        <div class="albums-grid">
+            <!-- Card for Blurryface -->
+            <article class="album-card">
+                <img src="./assets/img/blurryface.jpeg" alt="">
+            <div class="album-info">
+                <h3 class="album-nombre">Blurryface</h3>
+                <p class="album-especialidad">2015</p>
+                <p class="album-desc">Here we meet "Blurryface" (Nico), the antagonist who represents insecurities and the leader of the bishops.</p>
+            </div>
+            </article>
+            <!-- Card for Trench-->
+            <article class="album-card">
+                <img src="./assets/img/trench.jpeg" alt="">
+            <div class="album-info">
+                <h3 class="album-nombre">Trench</h3>
+                <p class="album-especialidad">2018</p>
+                <p class="album-desc">This is the beginning of the journey. Clancy attempts to escape the city of Dema for the first time and joins the Banditos.</p>
+            </div>
+            </article>
+            <!--Card for Scaled and Icy -->
+            <article class="album-card">
+                <img src="./assets/img/scaledandicy.jpeg" alt="">
+            <div class="album-info">
+                <h3 class="album-nombre">Scaled and Icy</h3>
+                <p class="album-especialidad">2021</p>
+                <p class="album-desc">This is the capture stage. Clancy is forced to create cheerful music as propaganda for the bishops while he is a prisoner.</p>
+            </div>
+            </article>
+            <!-- Card for Clancy  -->
+            <article class="album-card">
+                <img src="./assets/img/clancy.jpeg" alt="">
+            <div class="album-info">
+                <h3 class="album-nombre">Clancy</h3>
+                <p class="album-especialidad">2024</p>
+                <p class="album-desc">It's a return and a rebellion. Clancy gains powers, returns to the island, and leads the army into the final battle.</p>
+            </div>
+            </article>
+        </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-grid">
+
+            <!--  Social and Brand -->
+            <div class="footer-brand">
+                <span class="logo">Twenty<span> One Pilots</span></span>
+                <!-- Social list  -->
+                <ul class="social-links">
+                    <li>               
+                        <a href="https://github.com/Blurtrace" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                        </a>                  
+                    </li>
+                    <li>               
+                        <a href="https://web.facebook.com/Jandyp72" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                        </a>                  
+                    </li>
+                    <li>               
+                        <a href="https://www.instagram.com/_blurtrace_/" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </a>      
+                    </li>
+                    <li>               
+                        <a href="https://www.linkedin.com/in/jandy-jos%C3%A9-pe%C3%B1a-v%C3%A1squez-214715321/" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </a>   
+                    </li>
+                    <li>               
+                        <a href="https://web.whatsapp.com/send/?phone=573148457565" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <address>
+                Calle 39 con carrera 50, al lado de la Fábrica de Cultura<br />
+                Barranquillaa, Colombia<br />
+                <br />
+                Jandyjpv@gmail.com<br />
+                +57 3148457565
+                </address>
+            </div>
+
+            </div>
+
+            <!-- copyright + Sponsors -->
+            <div class="footer-bottom">
+            <p>© 2026 Jandy José Peña Vásquez. All right reserved.</p>
+
+            <!-- Sponsors list  -->
+            <ul class="sponsors">
+                <li style="list-style: none;">Be a direct sponsor</li>
+                <li>Sponsor Gold</li>
+                <li>Sponsor Silver</li>
+                <li>Sponsor Bronze</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
